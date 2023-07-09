@@ -16,13 +16,104 @@
       gap:15px;
       font-size:20px;
       font-style: italic;
-      color:wheat;
+      color:white;
 }
 .banner-container{
         height:100vh;
-        background-image: url("./asset/image/background.jpg");
+        background-image: url("./asset/image/background.jpg"),linear-gradient(rgb(0,0,0,0.3),rgba(0,0,0,0.4));
         background-position:center;
         background-repeat: no-repeat;
         background-size:cover;
-        
+        background-blend-mode: overlay;
+        display: flex;
+        align-items: center;
+
+}
+.banner-info{
+     text-align:center;
+}
+.primary{
+       color:red;
+}
+.title{
+     font-size:55px;
+     color:white;
+     font-weight:bold;
+}
+.description{
+      font-size:20px;
+      color:white;
+      padding:10px;
+       width:50%;
+       margin:auto;
+}
+.btn{
+      padding:12px 18px;
+      border:none;
+
+}
+.bg-primary{
+    background-color: red;
+    color:white;
+}
+/* other section */
+.service-container{
+    height:100vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgb(0,0,0,0.7),rgba(0,0,0,0.8));
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+.icon{
+   width:70px;
+   margin-bottom:20px;
+
+}
+.box{
+    width:150px;
+    height:100px;
+    padding:50px;
+    background-color: white;
+    color:black;
+    border-radius:10px;
+    text-align:center;
+
+
+}
+.service-description{
+      width:50%;
+      padding:15px;
+}
+.first-two-box{
+     display: flex;
+     gap:5px;
+     margin-top:5px;
+
+}
+.author-img{
+      width:70px;
+      height:70px;
+      border-radius: 40px;
+}
+.author-container{
+     display: flex;
+     gap:20px;
+     align-items: center;
+}
+.profile-container{
+     display: flex;
+     align-items: center;
+     gap:5px;
+}
+.tbn{
+     background-color: #fff;
+     color: royalblue;
+}
+.service-title{
+        margin-bottom: 30px;
 }
