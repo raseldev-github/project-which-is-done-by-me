@@ -1,0 +1,28 @@
+*{
+     margin:0;
+     padding:0;
+}
+.nav-container{
+       display: flex;
+       background-color: gray;
+       padding:10px;
+       align-items: center;
+       justify-content: space-around;
+}
+.menus>ul{
+      list-style-type: none;
+      display: flex;
+
+      gap:15px;
+      font-size:20px;
+      font-style: italic;
+      color:wheat;
+}
+.banner-container{
+        height:100vh;
+        background-image: url("./asset/image/background.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+}
